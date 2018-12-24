@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/collect_tweets.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="647">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -156,21 +156,6 @@
             <path>
               <item name="sna_diffusion" type="b2602c69:ProjectViewProjectNode" />
               <item name="sna_diffusion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sna_diffusion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sna_diffusion" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sna_diffusion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sna_diffusion" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sna_diffusion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sna_diffusion" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,12 +298,12 @@
       <workItem from="1545557922265" duration="7494000" />
       <workItem from="1545584085676" duration="6654000" />
       <workItem from="1545639792162" duration="3143000" />
-      <workItem from="1545665067598" duration="2921000" />
+      <workItem from="1545665067598" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25351000" />
+    <option name="totallyTimeSpent" value="25672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -451,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/collect_tweets.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="647">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
