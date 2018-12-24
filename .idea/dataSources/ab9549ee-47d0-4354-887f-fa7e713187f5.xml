@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sna_diffusion_development@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
+    <root id="1">
+      <ServerVersion>9.5.14</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ECADE_development">
+      <ObjectId>22309</ObjectId>
+      <StateNumber>3525</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="ECADE_test">
+      <ObjectId>20816</ObjectId>
+      <StateNumber>2812</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="ecade_biz_back_up">
+      <ObjectId>54338</ObjectId>
+      <StateNumber>12015</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="postgres">
+      <ObjectId>12413</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>659</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="sna_diffusion_development">
+      <ObjectId>85548</ObjectId>
+      <StateNumber>13263</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>612</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <role id="7" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="8" parent="6" name="information_schema">
+      <ObjectId>12121</ObjectId>
+      <StateNumber>609</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="9" parent="6" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>606</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="10" parent="6" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+      <StateNumber>22</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="11" parent="6" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="12" parent="6" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+      <StateNumber>22</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="13" parent="6" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>607</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2018-12-20.19:54:14.510</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="14" parent="6" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="15" parent="6" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="16" parent="6" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="17" parent="6" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="18" parent="6" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="19" parent="6" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <extension id="20" parent="6" name="plpgsql">
+      <ObjectId>12395</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>612</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+  </database-model>
+</dataSource>
